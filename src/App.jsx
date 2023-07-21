@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Form from './Form'
+import Form from './Tasks'
 import './App.css'
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
     <>
       <h1>To Do List </h1>
 
-      <Form />
+      <Tasks />
     </>
   )
 }
